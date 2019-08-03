@@ -2,6 +2,7 @@
   "name": "heroesmemorygame",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Geerooniimoo.github.io/heroesmemorygame",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -34,5 +35,7 @@
     "type": "git",
     "url": "git+https://github.com/Geerooniimoo/heroesmemorygame.git"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }

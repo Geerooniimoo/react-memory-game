@@ -27,7 +27,6 @@ class App extends Component {
       score: this.state.score,
       topScore: this.state.topScore,
     }
-
     // click updates
     update.heroes.forEach(hero => {
       if (hero.id === id) {
