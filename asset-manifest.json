@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/heroesmemorygame/static/css/main.8f3250f5.chunk.css",
+    "main.js": "/heroesmemorygame/static/js/main.00b652ae.chunk.js",
+    "main.js.map": "/heroesmemorygame/static/js/main.00b652ae.chunk.js.map",
+    "runtime~main.js": "/heroesmemorygame/static/js/runtime~main.a7092dbf.js",
+    "runtime~main.js.map": "/heroesmemorygame/static/js/runtime~main.a7092dbf.js.map",
+    "static/js/2.5bfccd3c.chunk.js": "/heroesmemorygame/static/js/2.5bfccd3c.chunk.js",
+    "static/js/2.5bfccd3c.chunk.js.map": "/heroesmemorygame/static/js/2.5bfccd3c.chunk.js.map",
+    "index.html": "/heroesmemorygame/index.html",
+    "precache-manifest.d519e85490d7b03eadd81a97fbb07ad2.js": "/heroesmemorygame/precache-manifest.d519e85490d7b03eadd81a97fbb07ad2.js",
+    "service-worker.js": "/heroesmemorygame/service-worker.js",
+    "static/css/main.8f3250f5.chunk.css.map": "/heroesmemorygame/static/css/main.8f3250f5.chunk.css.map"
+  }
+}
