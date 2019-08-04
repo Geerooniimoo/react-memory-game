@@ -1,1 +1,1 @@
-#HeroesMemoryGame - This app was created with React and Node.js.
+#HeroesMemoryGame - This app was created with React and Node.js.  The object of the game is to only click each image only once.
