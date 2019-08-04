@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "image": "/public/assets/images/Aquaman.png",
+    "image": "heroesmemorygame/public/assets/images/Aquaman.png",
     "clicked": false
   },
   {
     "id": 2,
-    "image": "/public/assets/images/Aquaman2.png",
+    "image": "heroesmemorygame/public/assets/images/Aquaman2.png",
     "clicked": false
   },
   {
     "id": 3,
-    "image": "/public/assets/images/Batman.png",
+    "image": "heroesmemorygame/public/assets/images/Batman.png",
     "clicked": false
   },
   {
     "id": 4,
-    "image": "public/assets/images/Black Panter.png",
+    "image": "heroesmemorygame/public/assets/images/Black Panter.png",
     "clicked": false
   },
   {
     "id": 5,
-    "image": "public/assets/images/Black Panter2.png",
+    "image": "heroesmemorygame/public/assets/images/Black Panter2.png",
     "clicked": false
   },
   {
