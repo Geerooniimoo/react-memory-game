@@ -13,7 +13,7 @@ class Sounds extends Component {
     audio = new Audio();
 
     togglePlayPause = () => {
-            this.audio.src="/assets/music/BatmanBegins.mp3";
+            this.audio.src="./assets/music/BatmanBegins.mp3";
         if(!this.state.playing) {
             this.setState({playing: true});
             this.audio.play();
