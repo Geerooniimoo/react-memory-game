@@ -32,11 +32,11 @@ class App extends Component {
       if (hero.id === id) {
         if (hero.clicked) {
           doubleClicked = true;
-          audio.src = "/assets/music/lost.mp3";
-          audio2.src = "/assets/music/man-laughing.mp3";
+          audio.src = "./assets/music/lost.mp3";
+          audio2.src = "./assets/music/man-laughing.mp3";
           audio2.play();
         } else { 
-          audio.src = "/assets/music/win.mp3"
+          audio.src = "./assets/music/win.mp3"
         };
         audio.play();
         hero.clicked = true;
@@ -55,7 +55,7 @@ class App extends Component {
 
     // reset clicked in cards if all cards where clicked once
     if (update.score && !(update.score % update.heroes.length)) {
-      audio2.src = "/assets/music/win2.mp3";
+      audio2.src = "./assets/music/win2.mp3";
       audio2.play();
       update.heroes.forEach(hero => hero.clicked = false);
     };

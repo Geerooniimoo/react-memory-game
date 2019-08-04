@@ -13,25 +13,27 @@ class Sounds extends Component {
     audio = new Audio();
 
     togglePlayPause = () => {
-            this.audio.src="./assets/music/BatmanBegins.mp3";
-        if(!this.state.playing) {
-            this.setState({playing: true});
+        this.audio.src = "./assets/music/BatmanBegins.mp3";
+        if (!this.state.playing) {
+            this.setState({ playing: true });
             this.audio.play();
+            this.audio.addEventListener('ended', function () {
+                this.currentTime = 0;
+                this.play();
+            });
         } else {
-            this.setState({playing: false});
+            this.setState({ playing: false });
             this.audio.pause();
         }
     };
 
     render() {
-        return(
-        <div>
-            {/* <audio id="soundTrack" src="/assets/music/BatmanBegins.mp3" loop="loop" autoPlay>
-                Your browser doesn't support the <code>audo</code> element.
-            </audio> */}
-            <button className="btn btn-info" onClick={this.togglePlayPause}><i className="fas fa-volume-up"></i></button>
-        </div>
-    )}
+        return (
+            <div>
+                <button className="btn btn-info" onClick={this.togglePlayPause}><i className="fas fa-volume-up"></i></button>
+            </div>
+        )
+    }
 };
 
 export default Sounds;
