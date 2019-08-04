@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/heroesmemorygame/static/css/main.ccd9755a.chunk.css",
-    "main.js": "/heroesmemorygame/static/js/main.3331cf24.chunk.js",
-    "main.js.map": "/heroesmemorygame/static/js/main.3331cf24.chunk.js.map",
+    "main.css": "/heroesmemorygame/static/css/main.79808fb7.chunk.css",
+    "main.js": "/heroesmemorygame/static/js/main.7c5e0f7f.chunk.js",
+    "main.js.map": "/heroesmemorygame/static/js/main.7c5e0f7f.chunk.js.map",
     "runtime~main.js": "/heroesmemorygame/static/js/runtime~main.a7092dbf.js",
     "runtime~main.js.map": "/heroesmemorygame/static/js/runtime~main.a7092dbf.js.map",
     "static/js/2.5bfccd3c.chunk.js": "/heroesmemorygame/static/js/2.5bfccd3c.chunk.js",
     "static/js/2.5bfccd3c.chunk.js.map": "/heroesmemorygame/static/js/2.5bfccd3c.chunk.js.map",
     "index.html": "/heroesmemorygame/index.html",
-    "precache-manifest.ee576ec7a106f5a9f4af86bec5c89224.js": "/heroesmemorygame/precache-manifest.ee576ec7a106f5a9f4af86bec5c89224.js",
+    "precache-manifest.d80d628ca60a2d7a1adca8d0b77269bf.js": "/heroesmemorygame/precache-manifest.d80d628ca60a2d7a1adca8d0b77269bf.js",
     "service-worker.js": "/heroesmemorygame/service-worker.js",
-    "static/css/main.ccd9755a.chunk.css.map": "/heroesmemorygame/static/css/main.ccd9755a.chunk.css.map",
-    "static/media/App.css": "/heroesmemorygame/static/media/background.a186f292.jpg"
+    "static/css/main.79808fb7.chunk.css.map": "/heroesmemorygame/static/css/main.79808fb7.chunk.css.map",
+    "static/media/Grid.css": "/heroesmemorygame/static/media/background.a186f292.jpg"
   }
 }
