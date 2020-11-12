@@ -25,7 +25,7 @@ class Game extends Component {
     let update = {
       heroes: [...this.state.heroes],
       score: this.state.score,
-      topScore: this.state.topScore,
+      topScore: this.state.topScore
     }
     // click updates
     update.heroes.forEach(hero => {

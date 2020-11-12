@@ -24,7 +24,7 @@ class Sounds extends Component {
         } else {
             this.setState({ playing: false });
             this.audio.pause();
-        }
+        };
     };
 
     render() {
@@ -33,7 +33,7 @@ class Sounds extends Component {
                 <button className="btn btn-info" onClick={this.togglePlayPause}><i className="fas fa-volume-up"></i></button>
             </div>
         )
-    }
+    };
 };
 
 export default Sounds;
