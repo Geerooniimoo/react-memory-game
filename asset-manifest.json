@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/heroesmemorygame/static/css/main.0f600abf.chunk.css",
-    "main.js": "/heroesmemorygame/static/js/main.2ca234c1.chunk.js",
-    "main.js.map": "/heroesmemorygame/static/js/main.2ca234c1.chunk.js.map",
-    "runtime~main.js": "/heroesmemorygame/static/js/runtime~main.a7092dbf.js",
-    "runtime~main.js.map": "/heroesmemorygame/static/js/runtime~main.a7092dbf.js.map",
-    "static/js/2.5bfccd3c.chunk.js": "/heroesmemorygame/static/js/2.5bfccd3c.chunk.js",
-    "static/js/2.5bfccd3c.chunk.js.map": "/heroesmemorygame/static/js/2.5bfccd3c.chunk.js.map",
-    "index.html": "/heroesmemorygame/index.html",
-    "precache-manifest.f6a3d355c2df381b3edc35581c6afe2f.js": "/heroesmemorygame/precache-manifest.f6a3d355c2df381b3edc35581c6afe2f.js",
-    "service-worker.js": "/heroesmemorygame/service-worker.js",
-    "static/css/main.0f600abf.chunk.css.map": "/heroesmemorygame/static/css/main.0f600abf.chunk.css.map",
-    "static/media/Grid.css": "/heroesmemorygame/static/media/background.a186f292.jpg"
-  }
+    "main.css": "/react-memory-game/static/css/main.19b3767e.css",
+    "main.js": "/react-memory-game/static/js/main.5985f498.js",
+    "static/media/background.jpg": "/react-memory-game/static/media/background.f240f3b6c116b5fda31a.jpg",
+    "index.html": "/react-memory-game/index.html",
+    "main.19b3767e.css.map": "/react-memory-game/static/css/main.19b3767e.css.map",
+    "main.5985f498.js.map": "/react-memory-game/static/js/main.5985f498.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19b3767e.css",
+    "static/js/main.5985f498.js"
+  ]
 }
