@@ -70,7 +70,7 @@ class Game extends Component {
   render() {
     return (
       <div className="Game">
-        <Sounds soundTrack ={document.getElementById("soundTrack")}/>
+        <Sounds />
         <Nav score={this.state.score} topScore={this.state.topScore} />
         <Grid shake={!this.state.score && this.state.topScore}>
           {this.state.heroes.map(hero => (
