@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "437cf2f3a81137ea29e1da68a4f7d840",
+    "revision": "39de18a6d05768f86cbcc8b09dff1c3a",
     "url": "/heroesmemorygame/index.html"
   },
   {
-    "revision": "f3e3f06e5b71c2c408fa",
-    "url": "/heroesmemorygame/static/css/main.79808fb7.chunk.css"
+    "revision": "1680ac22fdea703a47f5",
+    "url": "/heroesmemorygame/static/css/main.0f600abf.chunk.css"
   },
   {
     "revision": "a686e41154fd92225c54",
     "url": "/heroesmemorygame/static/js/2.5bfccd3c.chunk.js"
   },
   {
-    "revision": "f3e3f06e5b71c2c408fa",
-    "url": "/heroesmemorygame/static/js/main.7c5e0f7f.chunk.js"
+    "revision": "1680ac22fdea703a47f5",
+    "url": "/heroesmemorygame/static/js/main.2ca234c1.chunk.js"
   },
   {
     "revision": "75eb3a6860c55741b994",
