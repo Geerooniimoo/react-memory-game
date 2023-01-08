@@ -1,4 +1,31 @@
+* {
+    /* border: 2px dotted red; */
+}
+
 body {
     font-family: cursive, sans-serif;
+}
+
+.navbar {
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+nav h2 {
     font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:850px) and (orientation:landscape) {
+    .navbar {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    
+    .navbar > * {
+        font-size: calc(65%);
+    }
 }

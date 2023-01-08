@@ -4,6 +4,13 @@
     font-family: cursive sans-serif;
   }
   
-  
+@media screen and (max-width:850px) and (orientation:landscape) {
+  .Game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}  
+
   
   

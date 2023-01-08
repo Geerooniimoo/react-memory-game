@@ -29,9 +29,7 @@ class Sounds extends Component {
 
     render() {
         return (
-            <div>
-                <button className="btn btn-info" onClick={this.togglePlayPause}><i className="fas fa-volume-up"></i></button>
-            </div>
+                <button id="soundBtn" onClick={this.togglePlayPause}><i className="fas fa-volume-up"></i></button>
         )
     };
 };

@@ -1,13 +1,9 @@
 .card {
-  display: -webkit-flex;
-  -webkit-flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
+  border: 1px solid rgba(0, 0, 0, .125);
   border-radius: .25rem;
-  height: 10rem;
+  height: 180px;
+  width: 150px;
+  margin: 6px;
 }
 
 .card-img {
@@ -23,20 +19,44 @@
 @keyframes won {
 
   0% {
-    transform: scale(.95); 
+    transform: scale(.95);
   }
+
   25% {
-    transform: scale(1.20); 
+    transform: scale(1.20);
   }
+
   50% {
-    transform: scale(.95); 
+    transform: scale(.95);
   }
+
   75% {
-    transform: scale(1.20); 
+    transform: scale(1.20);
   }
+
   100% {
-    transform: scale(.95); 
+    transform: scale(.95);
   }
-  
+
 }
 
+@media screen and (max-width: 850px) and (orientation:landscape) {
+  .card {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 100px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .card {
+    width: 100px;
+    height: 100px;
+  }
+}

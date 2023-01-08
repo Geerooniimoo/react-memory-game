@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Game.css';
-import heroes from "../../heroes.json";
+import heroes from "../../heroes";
 import Card from "../Card";
 import Grid from "../Grid";
 import Nav from "../Nav";
@@ -70,8 +70,8 @@ class Game extends Component {
   render() {
     return (
       <div className="Game">
-        <Sounds />
         <Nav score={this.state.score} topScore={this.state.topScore} />
+        <Sounds />
         <Grid shake={!this.state.score && this.state.topScore}>
           {this.state.heroes.map(hero => (
             <Card
