@@ -5,6 +5,10 @@ import Card from "../Card";
 import Grid from "../Grid";
 import Nav from "../Nav";
 import Sounds from "../Sounds";
+import win1 from "../../music/win.mp3"
+import win2 from "../../music/win2.mp3";
+import lost from "../../music/lost.mp3";
+import laugh from "../../music/man-laughing.mp3";
 
 class Game extends Component {
   state = {
@@ -32,15 +36,16 @@ class Game extends Component {
       if (hero.id === id) {
         if (hero.clicked) {
           doubleClicked = true;
-          audio.src = "./assets/music/lost.mp3";
-          audio2.src = "./assets/music/man-laughing.mp3";
+          audio.src = `${lost}`;
+          audio2.src = `${laugh}`;
           audio2.play();
         } else { 
-          audio.src = "./assets/music/win.mp3"
+          audio2.src = `${win1}`;
+          hero.clicked = true;
+          update.score++;
+          audio2.play();
         };
         audio.play();
-        hero.clicked = true;
-        update.score++;
         if (update.score > update.topScore) {
           update.topScore = update.score;
         };
@@ -55,7 +60,7 @@ class Game extends Component {
 
     // reset clicked in cards if all cards where clicked once
     if (update.score && !(update.score % update.heroes.length)) {
-      audio2.src = "./assets/music/win2.mp3";
+      audio2.src = `${win2}`;
       audio2.play();
       update.heroes.forEach(hero => hero.clicked = false);
     };

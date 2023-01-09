@@ -2,7 +2,7 @@
   border: 1px solid rgba(0, 0, 0, .125);
   border-radius: .25rem;
   height: 180px;
-  width: 150px;
+  width: 200px;
   margin: 6px;
 }
 
@@ -49,14 +49,14 @@
 @media screen and (max-width: 1000px) {
   .card {
     width: 100px;
-    height: 150px;
+    height: 100px;
   }
 }
 
 @media screen and (max-width: 450px) {
 
   .card {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 80px;
   }
 }

@@ -1,13 +1,14 @@
 .Game {
-    text-align: center;
-    height: 100vh;
-    font-family: cursive sans-serif;
-  }
+  display: flex;
+  text-align: center;
+  height: 100vh;
+  font-family: cursive sans-serif;
+  flex-direction: column;
+  justify-content: center;
+}
   
 @media screen and (max-width:850px) and (orientation:landscape) {
   .Game {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
   }
 }  

@@ -1,36 +1,42 @@
 
 .fas {
     color: white;
+    font-size: 1.5rem;
 }
 
 #soundBtn {
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 100px;
+    right: 60px;
     background: #000;
-    width: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 8px;
     padding: 5px;
     margin-right: 10px;
     margin-top: 10px;
+    box-shadow: 3px 3px 0px grey;
 }
 
 
 @media screen and (max-width:850px) and (orientation:landscape) {
 
     #soundBtn {
-        top: 45px;
-        right: 3px;
+        top: 85px;
+        right: 13px;
     }
 }
 
 @media screen and (max-width: 450px) {
     #soundBtn {
-        position: unset;
-        width: 100%;
-        margin-top: 0;
+        position: relative;
+        width: 50px;
+        top: 12px;
+        left: 0;
+        margin: 15px 25px 5px auto;
         border: none;
         border-bottom: 2px solid silver;
         border-radius: 0;
     }
   }
+

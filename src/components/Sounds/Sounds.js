@@ -1,7 +1,6 @@
-// Needs fontawesome link and sounds in public/assets/music to make this work
-
-import React, { Component } from "react";
 import "./Sounds.css";
+import sound from '../../music/BatmanBegins.mp3'
+import React, { Component } from "react";
 
 class Sounds extends Component {
 
@@ -13,7 +12,7 @@ class Sounds extends Component {
     audio = new Audio();
 
     togglePlayPause = () => {
-        this.audio.src = "./assets/music/BatmanBegins.mp3";
+        this.audio.src = `${sound}`;
         if (!this.state.playing) {
             this.setState({ playing: true });
             this.audio.play();

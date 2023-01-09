@@ -1,31 +1,44 @@
-* {
-    /* border: 2px dotted red; */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+    background: #000;
+    font-family: serif;
+    padding: 5px;
 }
 
-body {
-    font-family: cursive, sans-serif;
-}
-
-.navbar {
-    flex-wrap: nowrap;
-    padding: 0;
+nav>* {
+    width: 33%;
+    margin: 0;
 }
 
 nav h2 {
-    font-size: 1.5rem;
-    margin-left: 10px;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 1.8rem;
 }
 
-@media screen and (max-width:850px) and (orientation:landscape) {
-    .navbar {
+nav p {
+    font-size: 1.5rem;
+}
+
+nav p {
+    color: lightgray;
+}
+
+
+@media screen and (max-width: 450px) {
+    nav h2 {
         width: 100%;
+        text-align: center;
     }
 
-}
-
-@media screen and (max-width:400px) {
-    
-    .navbar > * {
-        font-size: calc(65%);
+    nav h3 {
+        width: 50%;
+        margin: 5px auto;
     }
 }
