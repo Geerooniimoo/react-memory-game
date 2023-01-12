@@ -10,7 +10,7 @@ import Sounds from "./components/Sounds";
 import React, { Component } from 'react';
 import laugh from "./music/man-laughing.mp3";
 
-class Game extends Component {
+class App extends Component {
   state = {
     heroes,
     score: 0,
@@ -93,4 +93,4 @@ class Game extends Component {
   }
 }
 
-export default Game;
+export default App;
