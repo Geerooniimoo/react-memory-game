@@ -1,14 +1,37 @@
 {
   "files": {
-    "main.css": "/react-memory-game/static/css/main.19b3767e.css",
-    "main.js": "/react-memory-game/static/js/main.5985f498.js",
+    "main.css": "/react-memory-game/static/css/main.088a942a.css",
+    "main.js": "/react-memory-game/static/js/main.b18a11c1.js",
+    "static/media/BatmanBegins.mp3": "/react-memory-game/static/media/BatmanBegins.3ff29b883828479848a0.mp3",
+    "static/media/Screenshot (88).png": "/react-memory-game/static/media/Screenshot (88).b049fd95c62ae7fa444f.png",
+    "static/media/Thor.png": "/react-memory-game/static/media/Thor.6ce4e2532a9968d48f18.png",
+    "static/media/Green Lantern.png": "/react-memory-game/static/media/Green Lantern.0529d59ecbcc017f407c.png",
+    "static/media/Aquaman.png": "/react-memory-game/static/media/Aquaman.540ea96bf7ea2bd08afe.png",
+    "static/media/Deadpool.png": "/react-memory-game/static/media/Deadpool.f9700999ffad157587a5.png",
+    "static/media/Aquaman2.png": "/react-memory-game/static/media/Aquaman2.8c437afa322095cfbb22.png",
+    "static/media/Lucky.png": "/react-memory-game/static/media/Lucky.6a83a44e4824b1af8ecd.png",
+    "static/media/Spiderman.png": "/react-memory-game/static/media/Spiderman.ad1d15ad2ceb68d6f533.png",
+    "static/media/Screenshot (85).png": "/react-memory-game/static/media/Screenshot (85).1ea3ddf3d5aaea58102a.png",
+    "static/media/Wonder Woman.png": "/react-memory-game/static/media/Wonder Woman.fcdbecaf7fa245e20a40.png",
+    "static/media/Iron Man.png": "/react-memory-game/static/media/Iron Man.824643fda4bd7944f657.png",
+    "static/media/Batman.png": "/react-memory-game/static/media/Batman.a241dba8c2b5f0d3a61e.png",
+    "static/media/Super Man2.png": "/react-memory-game/static/media/Super Man2.f069a1bc365d5cf02cec.png",
+    "static/media/Black Panter2.png": "/react-memory-game/static/media/Black Panter2.3e9f4b4015f9be6aa203.png",
+    "static/media/Hulk.png": "/react-memory-game/static/media/Hulk.9674bd064c9efd4d2e52.png",
+    "static/media/Joker.png": "/react-memory-game/static/media/Joker.b5e7bbca5801263f6b03.png",
+    "static/media/Black Panter.png": "/react-memory-game/static/media/Black Panter.0c1a0fcb2d0a175ea821.png",
+    "static/media/Super Man.png": "/react-memory-game/static/media/Super Man.2e75a23bd124850b5abe.png",
     "static/media/background.jpg": "/react-memory-game/static/media/background.f240f3b6c116b5fda31a.jpg",
+    "static/media/win2.mp3": "/react-memory-game/static/media/win2.01568e65f64f40273c8e.mp3",
+    "static/media/man-laughing.mp3": "/react-memory-game/static/media/man-laughing.bdfa579a757373d541c2.mp3",
+    "static/media/lost.mp3": "/react-memory-game/static/media/lost.1d604065b2762b3d0b35.mp3",
+    "static/media/win.mp3": "/react-memory-game/static/media/win.d004e2a4eea1f1a522d9.mp3",
     "index.html": "/react-memory-game/index.html",
-    "main.19b3767e.css.map": "/react-memory-game/static/css/main.19b3767e.css.map",
-    "main.5985f498.js.map": "/react-memory-game/static/js/main.5985f498.js.map"
+    "main.088a942a.css.map": "/react-memory-game/static/css/main.088a942a.css.map",
+    "main.b18a11c1.js.map": "/react-memory-game/static/js/main.b18a11c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.19b3767e.css",
-    "static/js/main.5985f498.js"
+    "static/css/main.088a942a.css",
+    "static/js/main.b18a11c1.js"
   ]
 }
